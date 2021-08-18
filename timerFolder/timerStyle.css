@@ -1,0 +1,129 @@
+/* Navbar and hover animation */
+  /* End navbar and hover animation */
+  #MainPage {
+        display: flex;
+  }
+  #timerNav {
+      width: 30vh;
+      height: 80vh;
+  }
+body {
+  background-color: lightcyan;
+}
+.Logo {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+#top {
+  background-color: green;
+border: 5px greenyellow solid;
+display: flex;
+justify-content: space-around;
+}
+h1 {
+  color: white;
+}
+.navDivs {
+    height: 20%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: flex;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.navDivs:hover {
+    background-color: #55d6aa; 
+}
+.navDivs:hover span{
+    color: white;
+}
+#timerPage {
+    display: none;
+    width: 180vh;   
+    height: 80vh; 
+    /* text-align: center*/;
+}
+#clockPage {
+  width: 180vh;   
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+}
+#clockPage div {
+  
+  font-family: verdana;
+  font-size: 32px;
+
+}
+#rollingTime {
+  color: orange;
+}
+#stopwatchTime {
+  color: orange;
+  font-size: 36px;
+}
+#stopwatchPage {
+    display: none;
+    width: 180vh;   
+    height: 80vh; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#stopwatchPage button {
+  margin: 1%;
+  background-color: orange;
+    color: white;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border-radius: 12px;
+    height: 5%;
+}
+span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: gold;
+}
+a {
+    text-decoration: none;
+}
+#countdown {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+    text-align: center;
+    color: orange;
+}
+#timerPage div {
+    width: 100%;
+    height: 50%;
+    margin: none;
+}
+#timerPage input {
+    width: 15%;
+    height: 10%;
+}
+.timerChildren {
+    margin: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+}
+#timerPage button {
+  background-color: orange;
+    color: white;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border-radius: 12px;
+    height: 8%;
+}
+@keyframes ColorfadeOut {
+    from {background-color: lightcyan}
+    to {background-color: lightyellow}
+}
+@keyframes ColorfadeIn {
+    from {background-color: lightyellow}
+    to {background-color: lightcyan}
+}
